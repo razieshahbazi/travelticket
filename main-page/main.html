@@ -1,0 +1,328 @@
+<html>
+  <head>
+    <!--<link rel="stylesheet" href="background_styles.css">-->
+    <link rel="stylesheet" href="./main.css" />
+    <!-- <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8“> -->
+    <!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
+    <meta charset="UTF-8" /> 
+    <meta name=”viewport” content=”width=device-width“>
+    <meta name=”viewport” content=”width=device-width, initial-scale=0.5, user-scalable=no“>
+    <meta name=”viewport” content=”width=device-width, initial-scale=0.5, user-scalable=no“>
+
+    <title>Travel</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
+    />
+
+    <script src="./main.js" defer></script>
+  </head>
+
+  <body>
+    <div class="nav-header">
+      <nav class="navbar">
+        <div class="brand-title" style="align-self: flex-start">Brand Name</div>
+        <a href="#" class="toggle-button">
+          <span id="bar"></span>
+          <span id="bar"></span>
+          <span id="bar"></span>
+        </a>
+        <div class="navbar-links" style="align-self: flex-start">
+          <ul>
+            <li>
+              <a id="id-nav-li-one" href="#"
+                ><img src="./img/bed2.png" alt="" />Stays</a
+              >
+            </li>
+            <li>
+              <a href="../flight/flight.html"
+                ><img src="./img/airplane.png" alt="" />Flights</a
+              >
+            </li>
+            <li>
+              <a href="../car-rental/rentals.html"
+                ><img src="./img/car.png" alt="" />Car rental</a
+              >
+            </li>
+            <li>
+              <a href="../log in/login.html">
+                <img src="./img/register.png" alt="" />Register</a>
+            </li>
+          </ul>
+        </div>
+        <div id="login"><a href="../log in/login.html">Sign in</a></div>
+      </nav>
+      <header>
+        <div class="header-side-3">
+          <img src="./img/trip.png" alt="">
+          <h1 class="title-h1">Where are you staying?</h1>
+          <p class="title-small-p">
+            Search deals on hotels, homes, and much more...
+          </p>
+        </div>
+      </header>
+    </div>
+
+    <!--form table-->
+    <form action="" class="form">
+      <div id="formdiv">
+        <img id="icon" src="./img/bed.png" alt="bed" />
+        <input
+          id="underheader"
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="  Where are you going?"
+        />
+      </div>
+      <div id="formdiv">
+        <img id="icon" src="./img/calendar.png" alt="calendar" />
+        <input type="text" name="datetimes" />
+      </div>
+
+      <div id="formdiv">
+        <img id="icon" src="./img/user.png" alt="user" />
+
+        <div class="dropdown">
+          <div class="dropbtn">Adult·Children.Room</div>
+          <div class="dropdown-content">
+            <div class="drop">
+              <p class="drop-p p">Adults</p>
+              <div class="btn-container">
+                <button id="decbtn">-</button>
+                <input type="button" id="num" value="0" />
+                <button id="incbtn">+</button>
+              </div>
+            </div>
+            <div class="drop">
+              <p class="drop-p p">Children</p>
+              <div class="btn-container">
+                <button id="decbtn2">-</button>
+                <input type="button" id="num2" value="0" />
+                <button id="incbtn2">+</button>
+              </div>
+            </div>
+            <div class="drop">
+              <p class="drop-p p">Rooms</p>
+              <div class="btn-container">
+                <button id="decbtn3">-</button>
+                <input type="button" id="num3" value="0" />
+                <button id="incbtn3">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="formdiv">
+        <button class="srchbtn" type="submit">Search</button>
+      </div>
+    </form>
+
+    <!-- photo slider-->
+<div class="photoslider">
+  <h2>Explore the best hotels</h2>
+   <p>These popular destinations have a lot to offer</p>
+    <div id="wrapper">
+      <div id="carousel">
+        <div id="content">
+          <div class="slide">
+            <div><img class="item" src="./img/hotel1.jpg" /></div>
+            <div><img src="./img/hotel2.jpg" class="item" /></div>
+            <div><img src="./img/hotel4.jpg" class="item" /></div>
+            <div><img src="./img/hotel5.jpg" class="item" /></div>
+          </div>
+
+          <div class="slide">
+            <div><img src="./img/hotel6.jpg" class="item" /></div>
+            <div><img src="./img/hotel7.jpg" class="item" /></div>
+            <div><img src="./img/hotel8.jpeg" class="item" /></div>
+            <div><img src="./img/hotel9.jpg" class="item" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- offers -->
+
+    <div class="offers-side">
+      <div class="offers-side-section-right">
+        <p class="txt-page">save 15% or more</p>
+        <p class="text-page-two">Plan your dream trip with a Getaway Deal</p>
+        <button class="ofers-side-section-right-btn">Explore deals</button>
+      </div>
+
+      <div class="offers-side-section-left">
+        <div class="offers-side-section-left-pic">
+          <img src="./img/gateway.jpg" alt="gateway" />
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <!--div img-->
+
+    <div class="imgcontainer">
+      <div class="imga">
+        <a href=""><img src="./img/img1.webp" alt="" id="box" /></a>
+        <a href=""><img src="./img/img4.jfif" alt="" id="box" /></a>
+        <a href=""><img src="./img/img6.jpg" alt="" id="box" /></a>
+      </div>
+
+      <div class="imgb">
+        <a href=""><img src="./img/img2.jpg" alt="" id="box" /></a>
+        <a href=""><img src="./img/img3.jpg" alt="" id="box" /></a>
+        <a href=""><img src="./img/img5.jpg" alt="" id="box" /></a>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <!-- Subscribe form -->
+
+    <div id="form-side-section" class="form-side-section">
+      <div class="form-side-section-pic">
+        <img src="./img/subscribe.png" alt="subscribe-to-me" />
+      </div>
+
+      <div class="form-side-section-body">
+        <p class="txt-page">Subscribe to see Secret Deals</p>
+
+        <button id="offerbtn" type="button" class="offerbtn"><img src="./img/close.png" alt=""></button>
+
+        <form action="#">
+          <br />
+          <input
+            type="text"
+            placeholder="Enter email"
+            name="email"
+            class="inp-email"
+          />
+
+          <button type="submit" class="submit-btn">Sign me up!</button>
+        </form>
+      </div>
+    </div>
+
+    <!--connect-->
+
+    <div id="connect">
+      <h2>Connect with other travelers</h2>
+      <div class="connectimg">
+        <div>
+          <a href=""><img src="./img/traveler1.jpg" alt="" /></a>
+          <h4>France</h4>
+          <p>Travel community</p>
+          <p>393,688 travelers</p>
+        </div>
+
+        <div>
+          <a href=""><img src="./img/traveler2.png" alt="" /></a>
+          <h4>Travel Talk</h4>
+          <p>General discussion</p>
+          <p>559,436 travelers</p>
+        </div>
+
+        <div>
+          <a href=""><img src="./img/traveler3.jpg" alt="" /></a>
+          <h4>More communities</h4>
+          <p>View all</p>
+          <p>9,894,940 travelers</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="container">
+        <p style="color:white;">this site is created by Razie Shahbazi</p>
+        <p class="footer-p">Save time, save money!</p>
+        <p class="footer-p-two">sign up and we'll send the best deals to you</p>
+        <div class="footer-email">
+          <form action="#">
+            <input
+              type="email"
+              name="email"
+              class="inp-email-2"
+              placeholder="your email"
+            />
+            <button type="submit" class="submit-btn-2">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-side">
+      <div class="container">
+        <div class="footer-side-top">
+          <button class="btn-list-property">List your property</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-side-2">
+      <div class="container">
+        <div class="footer-side-top">
+          <nav id="footer-nav">
+            <ul class="footer-nav">
+              <li class="footer-nav-li">
+                <a href="#" class="footer-nav-li-a">Mobile version</a>
+              </li>
+
+              <li class="footer-nav-li">
+                <a href="#" class="footer-nav-li-a">Your account</a>
+              </li>
+
+              <li class="footer-nav-li">
+                <a href="#" class="footer-nav-li-a"
+                  >Make changes online to your booking</a
+                >
+              </li>
+
+              <li class="footer-nav-li">
+                <a href="#" class="footer-nav-li-a">Sustomer Service Hekp</a>
+              </li>
+
+              <li class="footer-nav-li">
+                <a href="#" class="footer-nav-li-a">Become an affiliate</a>
+              </li>
+
+              <li class="footer-nav-li">
+                <a href="#" class="footer-nav-li-a">Booking.com for Business</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div id="lasttxt1">
+      <h3>Extranet login</h3>
+    </div>
+
+    <div id="lasttxt2">
+      <p>
+        Booking.com is part of Booking Holdings Inc., the world leader in online
+        travel and related services.
+      </p>
+    </div>
+
+
+  </body>
+</html>

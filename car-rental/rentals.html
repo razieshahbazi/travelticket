@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Car rentals</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="./car.css">
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
+  />
+
+</head>
+
+<body>
+    
+    <div class="main">
+
+
+
+        <div class="nav-header">
+            <nav class="navbar">
+              <div class="brand-title" style="align-self: flex-start">Brand Name</div>
+              <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </a>
+              <div class="navbar-links" style="align-self: flex-start">
+                <ul>
+                    <li><a href="../main-page/main.html"><img src="./img/bed2.png" alt="">Stays</a></li>
+                    <li><a href="../flight/flight.html"><img src="./img/airplane.png" alt="">Flights</a></li>
+                    <li><a id="id-nav-li-one" href="#"><img src="./img/car.png" alt="">Car rental</a></li>
+                    <li><a href="../log in/login.html"><img src="./img/register.png"  alt="">Register</a></li>
+                  
+                </ul>
+              </div>
+      
+            </nav>
+            <header>
+            
+          </div>
+
+
+
+        <div class="intro">
+            <div class="container">
+
+                <div class="intro-section">
+
+                    <div class="intro-section-body">
+                        <p class="h-title">Car rentals for any kind of trip</p>
+                        <p class="p-small">Compare deals from the biggest car rental companies</p>
+                    </div>
+
+
+                    <div class="intro-section-radios">
+                        <input type="radio" name="inpt-qrup" class="intro-radio"> <label for=""  class="intro-radio">Return to same location</label>
+                        <input type="radio" name="inpt-qrup" class="intro-radio"> <label for=""  class="intro-radio">Return to different location</label>
+                    </div>
+
+
+                    <div class="intro-section-menu">
+                        <form action="">
+
+                            <div id="form-div">
+                                <!-- <img  id="icon" src="../Images/car-gray.png" alt="rentals"> -->
+                                <input id="underheader" type="text" id="fname" name="fname" value="picup location">
+                            </div>
+
+                            <div id="form-div">
+                                <!-- <img  id="icon" src="../Images/car-gray.png" alt="rentals"> -->
+                                <input type="text" id="lname" name="lname" value="Drop-off location">
+                               
+                            </div>
+
+                            <div id="form-div">
+                                <!-- <img  id="icon" src="../Images/calender-gray.png" alt="rentals"> -->
+                                <input type="text" name="datetimes" />
+
+                            </div>
+
+            
+
+                            <div id="form-div">
+                                <button class="srchbtn">Search</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+
+
+                    <div class="checkboxtex" style="text-align:center ;">
+                        <input type="checkbox" name="" id="">
+                        <label for="">I'm traveling for work</label>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+  
+
+        <!-- clean -->
+
+        <div class="clean">
+            <div class="container">
+
+                <div class="clean-section">
+
+                    <!-- <img src="../Images/exclamation.png" alt="exclamation"> -->
+
+                    <p class="txt-titr">Clean cars. Flexible bookings. Socially distanced rental counters.</p> <br>
+                   
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <!-- sign in -->
+
+        <div class="singin">
+            <div class="container">
+
+                <div class="singin-section">
+
+                    <p class="txt-titr">Sign in to save 10% with Genius</p> <br>
+                    <p class="txt-desc" id="select-txt-desc2">You're eligible for discounts on select car rentals-<span> <a href="../log in/login.html">sign in now!</a> </span></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        
+
+    </div>
+
+
+
+
+
+     <!-- footer with email -->
+
+     <div class="footer">
+        <div class="container">
+            <p class="footer-p">Save time, save money!</p>
+            <p class="footer-p-two"> sign up and we'll send the best deals to you</p>
+            <div class="footer-email">
+                <form action="#">
+                    <input type="email" name="email" class="inp-email-2" placeholder="your email">
+                    <button type="submit" class="submit-btn-2" >Subscribe</button>
+                </form>
+  
+            </div>
+  
+        </div>
+  
+    </div>
+  
+      
+  
+
+
+
+
+
+
+
+
+
+<script src="./car.js"></script>
+</body>
+
+</html>
