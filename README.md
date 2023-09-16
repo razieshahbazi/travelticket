@@ -1,8 +1,11 @@
 # travelticket
 this website is created by javascript.
-![t1](https://github.com/razieshahbazi/travelticket/assets/109855825/814d9660-45e4-436c-9141-75c70ee7568a)
-![t2](https://github.com/razieshahbazi/travelticket/assets/109855825/fec2d410-60d4-4531-99cc-e326614c9d36)
-![t3](https://github.com/razieshahbazi/travelticket/assets/109855825/3823db1d-bd1b-47fe-8f93-6b339a824ca2)
-![t4](https://github.com/razieshahbazi/travelticket/assets/109855825/10144336-55a9-4542-ade6-23c4273cbf85)
-![t5](https://github.com/razieshahbazi/travelticket/assets/109855825/cffe4c70-fef8-4fc0-963e-69dea57bd2e4)
-![t6](https://github.com/razieshahbazi/travelticket/assets/109855825/c634c5c6-3e06-4003-993f-55342b588983)
+main page
+![t1](https://github.com/razieshahbazi/travelticket/assets/109855825/0a8e4ba3-9eb0-495b-8199-9da5a72091a5)
+![t2](https://github.com/razieshahbazi/travelticket/assets/109855825/d345590d-6a7c-4e76-863e-c0d71a1ba17c)
+![t3](https://github.com/razieshahbazi/travelticket/assets/109855825/4d356941-f577-4ad3-af95-65f7e7dff044)
+![t4](https://github.com/razieshahbazi/travelticket/assets/109855825/edb00393-fbbf-49b4-b37a-f70240f4f32c)
+Login page
+![t5](https://github.com/razieshahbazi/travelticket/assets/109855825/25f77ca3-d7ae-40fd-9da1-481b02182e7a)
+flight page
+![t6](https://github.com/razieshahbazi/travelticket/assets/109855825/c607ce39-8706-4ca2-9206-29c2c6e7c820)
