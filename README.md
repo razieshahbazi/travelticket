@@ -1,6 +1,7 @@
 # travelticket
 this website is created by javascript.
-main page
+a responsive project related to travel tour tickets. in this project I have used html css javascript to developing.
+I have put here some pictures about main page,login and flight page about my travel website.Clone the entire project to see the rest of the website to see other parts of project fully.
 ![t1](https://github.com/razieshahbazi/travelticket/assets/109855825/0a8e4ba3-9eb0-495b-8199-9da5a72091a5)
 ![t2](https://github.com/razieshahbazi/travelticket/assets/109855825/d345590d-6a7c-4e76-863e-c0d71a1ba17c)
 ![t3](https://github.com/razieshahbazi/travelticket/assets/109855825/4d356941-f577-4ad3-af95-65f7e7dff044)
